@@ -9,11 +9,11 @@ Include the library to your html file
 You need to add three class to your html file in order for this to work.
 
 First, add a class "cart-container" on your cart container.
-  <pre>
+  ```html
   <div class="cart-container">
     <span class="glyphicon glyphicon-shopping-cart"></span>&nbsp;Cart</a>
   </div>
-  </pre>
+  ```
 
 Then add a class "product-container" on your product container 
   <pre>
