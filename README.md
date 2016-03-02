@@ -1,5 +1,5 @@
 # item-flyinator
-fly items to cart(This jQuery plugin won't give wings to your products)
+fly items to cart.(This jQuery plugin won't give wings to your products)
 
 #Installation
 Include the library to your html file
