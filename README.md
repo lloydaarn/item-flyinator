@@ -7,7 +7,7 @@ Include the library to your html file
 <script src="https://rawgit.com/elelowwaydi/item-flyinator/master/item-flyinator.js"></script>
 ```
 #Usage
-You need to add three class to your html file in order for this to work.
+You need to add three classes to your html file in order for this to work.
 
 First, add a class "cart-container" on your cart container.
   ```html
