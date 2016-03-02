@@ -31,3 +31,24 @@ Then add a class "product-container" on your product container
    ```html
     <span class="add-to-cart"><a href="#">Add to cart</a></span>
    ```
+   
+   NOTE
+   
+   Your add-to-cart element must be placed under the product-container element.
+   sample codes.
+  ```html
+  <div class="product-container">
+    <img src="//your-image">
+    <div class="product-information">
+      <span class="add-to-cart">Add to cart</span>
+    </div>
+  </div>
+  
+    <div class="product-container">
+    <img src="//your-image">
+    <div class="product-information">
+      Product Name
+    </div>
+    <span class="add-to-cart">Add to cart</span>
+  </div>
+  ```
