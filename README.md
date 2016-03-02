@@ -44,7 +44,9 @@ Then add a class "product-container" on your product container
     </div>
   </div>
   
-    <div class="product-container">
+  ---------------------
+  
+  <div class="product-container">
     <img src="//your-image">
     <div class="product-information">
       Product Name
