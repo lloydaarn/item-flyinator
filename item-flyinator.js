@@ -1,5 +1,5 @@
   $('.add-to-cart').click(function() {
-    const cart = $('.cart');
+    const cart = $('.cart-container');
     var item = $(this).parents(".product-container").find("img");
     if(item){
       var itemClone = item.clone()
