@@ -35,6 +35,7 @@ Then add a class "product-container" on your product container
    NOTE
    
    Your add-to-cart element must be placed under the product-container element.
+   
    sample codes.
   ```html
   <div class="product-container">
