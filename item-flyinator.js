@@ -11,7 +11,7 @@
         'height': item.height(),
         'width': item.width(),
         'z-index': '2000',
-        'opacity': '0.7'
+        'opacity': '.7'
       })
       .appendTo($('body'))
       .animate({
