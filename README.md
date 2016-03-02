@@ -55,3 +55,7 @@ Then add a class "product-container" on your product container
     <span class="add-to-cart">Add to cart</span>
   </div>
   ```
+  
+# Demo
+  
+  http://codepen.io/elelowwaydi/pen/bpdGEb
