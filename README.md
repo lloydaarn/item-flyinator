@@ -4,7 +4,7 @@ fly items to cart(This jQuery plugin won't give wings to your products)
 #Installation
 Include the library to your html file
 ```html
-script src="https://rawgit.com/elelowwaydi/item-flyinator/master/item-flyinator.js"></script></pre>
+<script src="https://rawgit.com/elelowwaydi/item-flyinator/master/item-flyinator.js"></script>
 ```
 #Usage
 You need to add three class to your html file in order for this to work.
