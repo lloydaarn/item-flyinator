@@ -1,4 +1,3 @@
-$(document).ready(function() {
   $('.add-to-cart').click(function() {
     var cart = $('.cart');
     var item = $(this).parents(".product-container").find("img");
@@ -30,4 +29,4 @@ $(document).ready(function() {
       });
     }
   });
-});
+
