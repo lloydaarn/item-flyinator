@@ -29,3 +29,4 @@ $addToCart.click(function() {
   });
 });
 
+
