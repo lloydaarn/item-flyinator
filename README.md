@@ -3,8 +3,9 @@ fly items to cart(This jQuery plugin won't give wings to your products)
 
 #Installation
 Include the library to your html file
-<pre><script src="https://rawgit.com/elelowwaydi/item-flyinator/master/item-flyinator.js"></script></pre>
-
+```html
+script src="https://rawgit.com/elelowwaydi/item-flyinator/master/item-flyinator.js"></script></pre>
+```
 #Usage
 You need to add three class to your html file in order for this to work.
 
@@ -16,7 +17,7 @@ First, add a class "cart-container" on your cart container.
   ```
 
 Then add a class "product-container" on your product container 
-  <pre>
+  ```html
     <div class="product-container">
       <img src="https://res.cloudinary.com/dbty1hpdt/image/upload/c_scale,h_195,w_195/v1456668562/Music Store/Sunburst-MX08.jpg">
       <div class="product-info">
@@ -24,9 +25,9 @@ Then add a class "product-container" on your product container
         <span class="add-to-cart"><a href="#">Add to cart</a></span>
       </div>
     </div>
-  </pre>
+  ```
   
   and last, add a class "add-to-cart" on your add to cart link
-   <pre>
+   ```html
     <span class="add-to-cart"><a href="#">Add to cart</a></span>
-   </pre>
+   ```
