@@ -2,7 +2,7 @@ const $cart = $('.cart-container');
 const $addToCart = $('.add-to-cart');
 $addToCart.click(function() {
   const $item = $(this).parents(".product-container").find("img");
-  const $itemClone = item.clone()
+  const $itemClone = $item.clone()
     .offset({
       top: $item.offset().top,
       left: $item.offset().left
