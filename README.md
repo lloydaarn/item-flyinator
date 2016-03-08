@@ -2,8 +2,9 @@
 fly items to cart.(This jQuery plugin won't give wings to your products)
 
 #Installation
-Include the script to your html file
+Include the script after the jQuery to your document.
 ```html
+<script src="//code.jquery.com/jquery-1.12.0.min.js"></script>
 <script src="https://rawgit.com/elelowwaydi/item-flyinator/master/item-flyinator.js"></script>
 ```
 #Usage
@@ -19,7 +20,7 @@ First, add a class "cart-container" on your cart container.
 Then add a class "product-container" on your product container 
   ```html
     <div class="product-container">
-      <img src="https://res.cloudinary.com/dbty1hpdt/image/upload/c_scale,h_195,w_195/v1456668562/Music Store/Sunburst-MX08.jpg">
+      <img src="/img/product-image.jpg">
       <div class="product-info">
         <div>Sunburst-MX08</div>
         <span class="add-to-cart"><a href="#">Add to cart</a></span>
@@ -34,12 +35,12 @@ Then add a class "product-container" on your product container
    
    NOTE
    
-   Your add-to-cart element must be placed under the product-container element.
+   Your add-to-cart element must be a descendant of the product-container element.
    
    sample codes.
   ```html
   <div class="product-container">
-    <img src="//your-image">
+    <img src="/img/product-image.jpg">
     <div class="product-information">
       <span class="add-to-cart">Add to cart</span>
     </div>
@@ -48,7 +49,7 @@ Then add a class "product-container" on your product container
   ---------------------
   
   <div class="product-container">
-    <img src="//your-image">
+    <img src="//product-image.jpg">
     <div class="product-information">
       Product Name
     </div>
