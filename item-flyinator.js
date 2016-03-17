@@ -1,3 +1,8 @@
+/*
+  item-flyinator 
+  github.com/elelowwaydi
+  twitter.com/elelowwaydi
+*/
 const $cart = $('.cart-container');
 const $addToCart = $('.add-to-cart');
 $addToCart.click(function() {
