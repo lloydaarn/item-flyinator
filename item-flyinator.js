@@ -1,5 +1,5 @@
 /*
-  item-flyinator 
+  item-flyinator
   github.com/elelowwaydi
   twitter.com/elelowwaydi
 */
@@ -33,5 +33,3 @@ $addToCart.click(function() {
     $(this).detach()
   });
 });
-
-
