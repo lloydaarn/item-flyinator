@@ -1,12 +1,8 @@
 # item-flyinator
-fly items to cart.(This jQuery plugin won't give wings to your products)
+Animate Item to the cart.
 
-#Installation
-Include the script after the jQuery to your document.
-```html
-<script src="//code.jquery.com/jquery-1.12.0.min.js"></script>
-<script src="https://rawgit.com/elelowwaydi/item-flyinator/master/item-flyinator.js"></script>
-```
+This jQuery plugin adds a flying product effect after you added it into your shopping cart. 
+
 #Usage
 You need to add three classes to your html file in order for this to work.
 
@@ -58,5 +54,5 @@ Then add a class "product-container" on your product container
   ```
   
 # Demo
-  
+  http://lloydaaron.xyz/item-flyinator/
   http://codepen.io/elelowwaydi/pen/bpdGEb
